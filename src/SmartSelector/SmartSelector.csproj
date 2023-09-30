@@ -1,7 +1,48 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<EnablePackageValidation>true</EnablePackageValidation>
+		<Title>SmartSelector</Title>
+		<Authors>kurnakovv</Authors>
+		<Company>kurnakovv</Company>
+		<Product>SmartSelector</Product>
+		<Description>This is a library that allows you to get the specific object fields without a "Select" method.</Description>
+		<PackageProjectUrl>https://github.com/kurnakovv/SmartSelector</PackageProjectUrl>
+		<PackageIcon>SmartSelector.png</PackageIcon>
+		<PackageReadmeFile>ReadMeNuget.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/kurnakovv/SmartSelector</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>SmartSelector Select SelectSpecificFields select-only-specific-fields-with-linq-ef-core</PackageTags>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\SmartSelector.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\ReadMeNuget.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="MinVer" Version="4.3.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 
 </Project>
