@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartSelector.UnitTests
 {
-    public class SelectorExtensions
+    public class SelectorExtensionsTests
     {
         [Fact]
         public void SelectFields_CanSelectOnlySpecificFields_IQueryableWithSpecificFields()
