@@ -40,6 +40,9 @@ namespace SmartSelector.UnitTests
             });
             string expectedFinalString = "FirstProperty: '', SecondProperty: 'a2', ThirdProperty: 'a3'\r\nFirstProperty: '', SecondProperty: 'b2', ThirdProperty: 'b3'\r\nFirstProperty: '', SecondProperty: 'c2', ThirdProperty: 'c3'";
             Assert.Equal(expectedFinalString, string.Join("\r\n", result.ToList().Select(x => new string($"FirstProperty: '{x.FirstProperty}', SecondProperty: '{x.SecondProperty}', ThirdProperty: '{x.ThirdProperty}'"))));
+            Assert.True(result.Select(x => x.FirstProperty).All(x => x == null));
+            Assert.True(result.Select(x => x.SecondProperty).All(x => x != null));
+            Assert.True(result.Select(x => x.ThirdProperty).All(x => x != null));
         }
     }
 }
