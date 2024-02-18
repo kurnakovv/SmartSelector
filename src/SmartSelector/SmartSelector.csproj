@@ -17,6 +17,7 @@
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<PackageId>Kurnakov.SmartSelector</PackageId>
 	</PropertyGroup>
 
 	<ItemGroup>
