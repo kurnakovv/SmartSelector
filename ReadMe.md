@@ -2,8 +2,8 @@
  <img src="SmartSelector.png" weight="250px" height="250px" />
  <h2>SmartSelector</h2>
  
- [![NuGet](https://img.shields.io/nuget/v/SmartSelector.svg)](https://www.nuget.org/packages/SmartSelector)
- [![NuGet download](https://img.shields.io/nuget/dt/SmartSelector.svg)](https://www.nuget.org/packages/SmartSelector) 
+ [![NuGet](https://img.shields.io/nuget/v/Kurnakov.SmartSelector.svg)](https://www.nuget.org/packages/Kurnakov.SmartSelector)
+ [![NuGet download](https://img.shields.io/nuget/dt/Kurnakov.SmartSelector.svg)](https://www.nuget.org/packages/Kurnakov.SmartSelector) 
  ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%kurnakovv%SmartSelector&countColor=%23263759&style=flat)
   [![MIT License](https://img.shields.io/github/license/kurnakovv/SmartSelector?color=%230b0&style=flat)](https://github.com/kurnakovv/SmartSelector/blob/main/LICENSE)
  [![Build/Test](https://github.com/kurnakovv/SmartSelector/actions/workflows/build-test.yml/badge.svg)](https://github.com/kurnakovv/SmartSelector/actions/workflows/build-test.yml)
